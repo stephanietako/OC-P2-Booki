@@ -108,11 +108,11 @@ p {
  
 .formulaire input {
   background-color: #FFFFFF;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: bold;
   color: #000000;
-  width: 20%;
-  padding-left: 20px;
+  width: 18%;
+  padding-left: 12px;
   border: 2px solid var(--color-clear-gray);
   font-family: 'Raleway', sans-serif;
 }
@@ -125,13 +125,13 @@ p {
   background-color: var(--color-blue);
   color: #FFFFFF;
   border: none;
-  font-size: larger;
   font-weight: bold;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
-  padding-right: 12px;
+  padding-right: 10px;
   width: 10%;
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
  
 .filters {
@@ -150,7 +150,6 @@ p {
 .filters ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   margin-top: 10px;
 }
@@ -158,10 +157,9 @@ p {
 .filters ul li {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   border: 2px solid var(--color-picker-gray);
   border-radius: 40px / 32px;
-  margin-right: 27px;
+  margin-right: 24px;
   margin-bottom: 20px;
 }
  
@@ -175,7 +173,7 @@ p {
   margin-right: 5px;
   margin-left: -4px;
   font-size: 19px;
-  padding: 15px
+  padding: 12px
 }
  
 .filters ul li a {
@@ -270,7 +268,7 @@ p {
   border-top-right-radius: 20px;
   width: 100%;
   object-fit: cover;
-  max-height: 100px;
+  max-height: 110px;
 }
 
 .container .hebergements-marseille .conteneur-cards .card a .card-body {
@@ -343,7 +341,7 @@ text-decoration: none;
 }
 
 #afficher-plus a h3 {
-  padding: 25px 0 31px 41px;
+  padding: 25px 0 18px 41px;
   font-size: 18px; 
   color: #000000;
 }
@@ -795,4 +793,71 @@ footer .footer-container {
 .footer-container .bloc3 h3 {
   font-size: 18px;
   padding-left: 40px;
+}
+
+
+@media (max-width: 992px) {
+  #bloc-page {
+    width: auto;
+  }
+
+nav {
+  width: auto;
+  text-align: left;
+}
+  
+.container .hebergements-marseille {
+  width: 100%; 
+  height: auto; 
+} 
+
+.formulaire input {
+  padding-left: 9px;
+}
+
+.formulaire .search {
+  width: 11%;
+  font-size: 15px;
+}
+
+.filters ul li {
+  margin-right: 12px;
+}
+
+.container .hebergements-marseille h1{
+  padding: 20px 0 8px 40px;
+  margin-left: 3px;
+}
+
+.container .plus-populaires {
+  width: 100%;
+  
+  margin-left: 45px;
+  margin-right: 40px;
+}
+
+.container .plus-populaires h1{
+  padding: 20px 0 8px 40px;
+  margin-left: 3px;
+}
+ 
+.container .plus-populaires .conteneur-cards .card {
+    width: 60%;
+    height: 145px;
+}
+.container .plus-populaires .conteneur-cards .card a .card-image img {
+  width: 170px;
+}
+
+.container .plus-populaires .conteneur-cards {
+  justify-content: center;
+  padding-bottom: 40px;
+
+}
+
+#font-chart a i {
+  margin-left: 500px;
+  padding-right: 34px;
+}
+
 }
