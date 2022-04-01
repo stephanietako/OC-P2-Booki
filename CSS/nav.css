@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 38px 20px 42px 69px;
+}
+
+#header-bloc {
+  display: flex;
+  flex-direction: column; 
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#logo img {
+  width: 100px;
+  height: 45px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 25px;
+}
+
+nav a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav ul li #accomodations {
+  color: var(--color-blue);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+nav ul li #activity {
+  color: #000000;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+nav ul li a:hover {
+  border-top: 2px solid var(--color-blue);
+  padding-top: 51px;
+}

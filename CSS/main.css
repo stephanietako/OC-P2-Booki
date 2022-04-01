@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import "nav.css";
+@import "footer.css";
+@import "search.css";
+@import "activity.css";
+@import "results.css";
+
+:root {
+  --color-clear-gray: #F2F2F2; 
+  --color-blue: #0065FC;
+  --color-clear-blue: #DEEBFF;
+  --color-picker-gray: rgba(217,217,217,255);
+}
+
+* {
+  box-sizing: border-box;
+}
+ html {
+  scroll-behavior: smooth;
+ }
+
+ body {
+  font-family: 'Raleway', sans-serif;
+}
+ 
+#bloc-page {
+  width: 100%;
+}
+
+p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+ 

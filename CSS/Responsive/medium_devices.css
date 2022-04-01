@@ -1,0 +1,138 @@
+/* medium device (tablets 768px or less)*/
+@media (max-width: 768px) {
+    
+  #bloc-page {
+    width: auto;
+  }
+    
+  header {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+  }
+    
+  nav ul {
+    border: 3px solid red;
+  }  
+    
+  nav a {
+    font-size: 17px;
+    padding: 0; 
+  }
+      
+  nav ul li #accomodations  {
+    border: 3px solid red;
+  }
+       
+  nav ul li #activity {
+    border: 3px solid red;
+    
+  }
+       
+  nav ul li a:hover {
+    border-bottom: 3px solid var(--color-blue);
+    padding-bottom: 25px;
+    border-top: none;
+  }
+  
+  .bloc-text {
+    margin-top: 25px;
+    margin-left: 25px;
+    line-height: 19px;
+  }
+    
+  .forms {
+    margin: 20px 0 20px 18px;
+  }
+      
+  .forms .search {
+    display: none;
+  }
+      
+  .forms input {
+    width: 70%;
+    position: relative; 
+  }
+      
+  .forms .btn-mobile {
+    display: flex;
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius:15px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 41px;
+  }
+  
+  .forms .btn-mobile i {
+    display: flex;
+    padding-top: 14px;
+    padding-left: 10px;
+  }
+  
+  .filters h3 {
+    margin-left: 30px;
+  }
+      
+  .container .accomodations-marseille {
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+    order: 2;
+  }
+      
+  .container .bloc-popular {
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+  }
+       
+  .container .most-popular .font-chart h1 {
+    padding: 30px 0 18px 40px;
+    margin-left: 3px;
+  }
+      
+  .font-chart ul li i a {
+    padding-left: 552px;
+  }
+       
+  .bloc-popular {
+    width: 100%;   
+  }
+        
+  .container .most-popular .container-cards {
+    gap: 20px;
+  }
+      
+      
+  .container .most-popular .container-cards .card {
+    width: 60%;
+    height: 145px;
+  }
+       
+  .container .most-popular .container-cards .card a .card-image img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+    width: 115px;
+  }
+      
+  .bloc-popular .most-popular .container-cards .card a .card-body h3 {
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 3px; 
+    padding-right: 10px;
+  }
+       
+  .bloc-popular .most-popular .container-cards .card a .card-body p {
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+        
+  }
+      }
+  
