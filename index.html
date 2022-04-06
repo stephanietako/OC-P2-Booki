@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/Responsive/large_devices.css">
+    <link rel="stylesheet" href="CSS/Responsive/medium_devices.css">
+    <link rel="stylesheet" href="CSS/Responsive/small_devices.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -69,7 +72,7 @@
         </div>
         <!--hebergements à marseille-->
         <main class="container">
-            <section class="accomodations-marseille">
+            <section class="accomodations-marseille" id="accomodations-bloc">
                 <h1>Hébergements à Marseille</h1>
                 <div class="container-cards">
                     <div class="card">
@@ -84,7 +87,7 @@
                             <div class="card-body">
                                 <h3>Auberge de la Cannebière</h3>
                                 <p>Nuit à partir de <strong>25€</strong></p>
-                                <div id="stars">
+                                <div class="stars">
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
@@ -107,7 +110,7 @@
                             <div class="card-body">
                                 <h3>Hôtel du port</h3>
                                 <p>Nuit à partir de 52<strong>€</strong></p>
-                                <div id="stars">
+                                <div class="stars">
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
@@ -130,7 +133,7 @@
                             <div class="card-body">
                                 <h3>Hôtel les mouettes</h3>
                                 <p>Nuit à partir de 76<strong>€</strong></p>
-                                <div id="stars">
+                                <div class="stars">
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
@@ -153,7 +156,7 @@
                             <div class="card-body">
                                 <h3>Hôtel de la mer</h3>
                                 <p>Nuit à partir de 46<strong>€</strong></p>
-                                <div id="stars">
+                                <div class="stars">
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
@@ -176,7 +179,7 @@
                             <div class="card-body">
                                 <h3>Auberge Le Panier</h3>
                                 <p>Nuit à partir de <strong>23€</strong></p>
-                                <div id="stars">
+                                <div class="stars">
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
@@ -199,7 +202,7 @@
                             <div class="card-body">
                                 <h3>Hôtel chez Amina</h3>
                                 <p>Nuit à partir de 96<strong>€</strong></p>
-                                <div id="stars">
+                                <div class="stars">
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
@@ -219,9 +222,10 @@
             </section>
             <!--les plus populaires-->
             <aside class="bloc-popular">
-                <div class="most-popular">
-                    <div class="font-chart">
+                    <div class="chart-bloc">
+                    <div class="title-chart">
                         <h1>Les plus populaires</h1>
+                    </div>
                         <div id="font">
                             <ul>
                                 <li>
@@ -244,7 +248,7 @@
                                 <div class="card-body">
                                     <h3>Hôtel le soleil du matin</h3>
                                     <p>Nuit à partir de 128<strong>€</strong></p>
-                                    <div id="stars">
+                                    <div class="stars">
                                         <i class="fa-solid fa-star blue-color"></i>
                                         <i class="fa-solid fa-star blue-color"></i>
                                         <i class="fa-solid fa-star blue-color"></i>
@@ -264,7 +268,7 @@
                                 <div class="card-body">
                                     <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                                     <p>Nuit à partir de 71<strong>€</strong></p>
-                                    <div id="stars">
+                                    <div class="stars">
                                         <i class="fa-solid fa-star blue-color"></i>
                                         <i class="fa-solid fa-star blue-color"></i>
                                         <i class="fa-solid fa-star blue-color"></i>
@@ -284,7 +288,7 @@
                                 <div class="card-body">
                                     <h3>Hôtel Tout bleu et Blanc</h3>
                                     <p>Nuit à partir de 68<strong>€</strong></p>
-                                    <div id="stars">
+                                    <div class="stars">
                                         <i class="fa-solid fa-star blue-color"></i>
                                         <i class="fa-solid fa-star blue-color"></i>
                                         <i class="fa-solid fa-star blue-color"></i>
@@ -295,14 +299,13 @@
                             </a>
                         </div>
                     </div>
-                </div>
             </aside>
         </main>
         <!--Activité à marseille-->
         <div class="title-activity" id="activity-bloc">
             <h1>Activités à Marseille</h1>
         </div>
-        <main class="activity-container">
+        <article class="activity-container">
             <section class="activity-marseille">
                 <div class="container-cards1">
                     <div class="card">
@@ -407,11 +410,11 @@
                 </div>
 
             </section>
-        </main>
+        </article>
         <!--FOOTER-->
         <footer>
             <div class="footer-container">
-                <div id="bloc">
+                <div class="bloc">
                     <h3>A propos</h3>
                     <a href="#" id="site">
                         Fonctionnement du site
@@ -424,7 +427,7 @@
                     </a>
                 </div>
 
-                <div id="bloc">
+                <div class="bloc">
                     <h3>Nos hébergements</h3>
                     <a href="#" id="chart">
                         Charte qualité
@@ -434,7 +437,7 @@
                     </a>
                 </div>
 
-                <div id="bloc">
+                <div class="bloc">
                     <h3>Assistance</h3>
                     <a href="#" id="help">
                         Centre d'aide
@@ -447,5 +450,4 @@
         </footer>
     </div>
 </body>
-
 </html>

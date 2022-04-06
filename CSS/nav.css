@@ -7,12 +7,10 @@ header {
 
 #header-bloc {
   display: flex;
-  flex-direction: column; 
 }
 
 #logo {
   display: flex;
-  flex-direction: row;
   align-items: baseline;
 }
 
@@ -21,13 +19,17 @@ header {
   height: 45px;
 }
 
+nav {
+  display: flex;
+}
+
 nav ul {
   display: flex;
   list-style: none;
 }
 
 nav li {
-  margin-right: 25px;
+  margin-right: 0px;
 }
 
 nav a {
@@ -43,8 +45,8 @@ nav ul li #accomodations {
 
 nav ul li #activity {
   color: #000000;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 nav ul li a:hover {

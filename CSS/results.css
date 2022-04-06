@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
 }
  
 .container .accomodations-marseille {
@@ -64,12 +65,12 @@
 .container .accomodations-marseille .container-cards .card a .card-body {
   display: flex;
   flex-direction: column;
-  padding: 8px 30px 0 10px;
+  padding: 8px 0 0 10px;
 }
  
 .container .accomodations-marseille .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   padding-bottom: 5px;
 }
  
@@ -114,7 +115,7 @@
 #read-more  a {
   margin: 0;
   text-decoration: none;
-  padding: 24px 0 20px 43px;
+  padding: 24px 0 27px 43px;
 }
 
 #read-more a h3 {
@@ -126,25 +127,24 @@
   background-color: var(--color-clear-gray);
   border-radius: 25px;
   width: 29%;
-  margin-top: 33px; 
 }
 
-.font-chart {
+.chart-bloc {
   display: flex;
   flex-wrap: wrap; 
-  align-items: baseline;
+  align-items: baseline; 
+  justify-content: space-around;
 }
 
-.font-chart h1 {
+.title-chart h1 {
   margin: 0;
   padding-top: 40px;
-  padding-left: 36px;
-  padding-right: 68px;
 }
 
 #font {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; 
 }
 
 #font ul {
@@ -153,8 +153,8 @@
   list-style: none;
 }
 
-#font ul li::after {
-  display: flex;
+#font ul li{
+  display: flex; 
 }
 
 #font ul li a {
@@ -167,18 +167,17 @@
 #font ul li i {
   color: #000000;
   margin: 0;
+  
 }
-
-.bloc-popular .most-popular .container-cards {
+.bloc-popular .container-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
-  padding-top: 24px; 
   padding-bottom: 34px;
 }
 
-.bloc-popular .most-popular .container-cards .card {
+.bloc-popular .container-cards .card {
   padding: 5px;
   background-color: #FFFFFF;
   border-radius: 25px;
@@ -187,13 +186,13 @@
   height: auto; 
 }
   
-.bloc-popular .most-popular .container-cards .card a {
+.bloc-popular .container-cards .card a {
   display: flex;
   text-decoration: none;
   color: #000000;
 }
  
-.container .most-popular .container-cards .card a .card-image img {
+.container .container-cards .card a .card-image img {
   display: flex;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -203,29 +202,29 @@
   object-fit: cover;
 }
 
-.bloc-popular .most-popular .container-cards .card a .card-body {
+.bloc-popular .container-cards .card a .card-body {
   display: flex;
   flex-direction: column;
   padding: 12px 30px 0 23px;
 }
  
-.bloc-popular .most-popular .container-cards .card a .card-body h3 {
+.bloc-popular .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   padding-bottom: 5px; 
 }
  
-.bloc-popular .most-popular .container-cards .card a .card-body p {
+.bloc-popular .container-cards .card a .card-body p {
   margin: 0;
   font-size: 14px;
   padding-bottom: 45px;
 }
 
-#stars {
+.stars {
   display: flex;
 }
 
-#stars i {
+.stars i {
  font-size: 11px;
  padding-bottom: 8px;
 }

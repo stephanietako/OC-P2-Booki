@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 @import "nav.css";
-@import "footer.css";
 @import "search.css";
-@import "activity.css";
 @import "results.css";
+@import "activity.css";
+@import "footer.css";
+
 
 :root {
   --color-clear-gray: #F2F2F2; 

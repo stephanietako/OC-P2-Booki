@@ -1,185 +1,196 @@
 /* large device (Desktop, 992px or less)*/
 @media all and (max-width: 992px) {
 
-  #bloc-page {
-    width: auto;
-  }
-   
-  .forms input {
-    padding-left: 12px;
-    width: 25%;
-  }
-  
-  .forms .search {
-    width: 14%;
-  }
-  
-  .filters h3 {
-    margin-right: 10px;
-  }
-  
-  .filters ul li {
-    margin: 0 0 20px 10px;
-  }
-  
-  .container .accomodations-marseille h1{
-    padding: 30px 0 18px 40px;
-    margin-left: 3px;
-  }
-  
-  .container .accomodations-marseille {
-    width: 90%;
-    margin-bottom: 34px;
-    justify-content: center;
-  } 
-  
-  .container .bloc-popular {
-    width: 70%;
-    margin: auto;
-  }
-   
-  .container .most-popular .font-chart h1 {
-    padding: 30px 0 18px 40px;
-    margin-left: 3px;
-  }
-  
-  .container .most-popular .container-cards {
-    gap: 20px;
-  }
-  
-  .container .most-popular .container-cards .card {
-    width: 60%;
-  }
-   
-  .container .most-popular .container-cards .card a .card-image img {
-    border-top-left-radius: 20px;
-     border-bottom-left-radius: 20px;
-    object-fit: cover;
-    width: 183px;
-  }
+#bloc-page {
+  width: auto;
+}
 
-  .bloc-popular .most-popular .container-cards .card a .card-body h3 {
-    margin: 0;
-    font-size: 16px;
+.forms .btn-mobile {
+  display: none;
+}
+
+.forms input {
+  padding-left: 12px;
+  min-width: 25%;
 }
   
-  .bloc-popular .most-popular .container-cards .card a .card-body .stars i {
-    font-size: 11px;
-    padding-top: 3px;
-    padding-bottom: 6px;
-  }
-  
-  .activity-container {
-    margin-top: 40px;
-   justify-content: center;
-  }
-
-  .title-activity h1 {
-    padding-bottom: 0;
-    color: #000000;
-    text-align: center;
+.forms .search {
+  width: 14%;
 }
-  .activity-container .activity-marseille {
-    width: 50%;
-  }
+
+.filters h3 {
+  margin-right: 10px;
+}
   
-  .activity-container .activity-marseille .container-cards1 {
-    width: 100%;
-  
-   
-  }
-  .activity-container .activity-marseille .container-cards1 {
-    width: 100%;
-    height: auto;
-  }
+.filters ul li {
+  margin: 0 0 20px 10px;
+}
  
-  .activity-container .activity-marseille .container-cards1 .card a .card-image img {
-    width: 100%;
-    height: 242px;
-  }
+.container .accomodations-marseille h1{
+  padding: 30px 0 18px 40px;
+  margin-left: 3px;
+}
+
+.container .accomodations-marseille .container-cards .card a .card-body h3 {
+  font-size: 17px;
+}
+
+.container .accomodations-marseille {
+  width: 90%;
+  margin-bottom: 40px;
+  justify-content: center;
+} 
   
-  .activity-container .activity-marseille .container-cards2 {
-    width: 100%;
-    justify-content: center;
+.container .bloc-popular {
+  width: 70%;
+  margin: auto;
+}
+   
+.title-chart h1 {
+  margin: 0;
+  padding-top: 40px;
+}
+
+.chart-bloc {
+  justify-content: space-between;
+  padding-left: 61px;
+  padding-right: 61px;
+}
+
+.container .bloc-popular .container-cards {
+  gap: 20px;
+}
+  
+.container .bloc-popular .container-cards .card {
+  width: 60%;
+}
+   
+.container .bloc-popular .container-cards .card a .card-image img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  object-fit: cover;
+  width: 183px;
   }
 
-  .activity-container .activity-marseille .container-cards2 .card {
-    width: 100%;
+.container .bloc-popular .container-cards .card a .card-body h3 {
+  margin: 0;
+  font-size: 17px;
+}
+  
+.container .most-popular .container-cards .card a .card-body .stars i {
+  font-size: 11px;
+  padding-top: 3px;
+  padding-bottom: 6px;
+}
+  
+.activity-container {
+  justify-content: center;
+  gap: 40px;
+}
+
+.title-activity h1 {
+  margin: 47px 0 20px 0;
+  text-align: center;
+}
+  
+.activity-container .activity-marseille {
+  width: 60%;
+}
+  
+.activity-container .activity-marseille .container-cards1 {
+  width: 100%;   
+}
+  
+ 
+.activity-container .activity-marseille .container-cards1 .card a .card-image img {
+  width: 100%;
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards2 {
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-container .activity-marseille .container-cards2 .card {
+  width: 100%;
   }
   
-  .activity-container .activity-marseille .container-cards2 .card a .card-image img {
-    width: 100%;
-    height: 242px;
+.activity-container .activity-marseille .container-cards2 .card a .card-image img {
+  width: 100%;
+  height: 215px;
+  object-position: 0;
+}
+
+.activity-container .activity-marseille .container-cards3 {
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-container .activity-marseille .container-cards3 .card {
+  width: 100%; 
+  }
+  
+.activity-container .activity-marseille .container-cards3 .card a .card-image img {
+  width: 100%;
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards4 {
+  width: 100%;
+  height: auto;
+}
+  
+.activity-container .activity-marseille .container-cards4 .card {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards4 .card a .card-image img {
+  height: 215px;
+  width: 100%;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards5 {
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-container .activity-marseille .container-cards5 .card {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards5 .card a .card-image {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards5 .card a .card-image img {
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards6 {
+  width: 100%;
+  justify-content: center;
   }
 
-  .activity-container .activity-marseille .container-cards3 {
-    width: 100%;
-    justify-content: center;
-  }
+.activity-container .activity-marseille .container-cards6 .card {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards6 .card a .card-image {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards6 .card a .card-image img { 
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards6 .card a .card-body {
+  margin-bottom: 12px;
+}
 
-  .activity-container .activity-marseille .container-cards3 .card {
-    width: 100%; 
-  }
-  
-  .activity-container .activity-marseille .container-cards3 .card a .card-image img {
-    width: 100%;
-    height: 242px;
-  }
-  
-  .activity-container .activity-marseille .container-cards4 {
-    width: 100%;
-    height: auto;
-  }
-  
-  .activity-container .activity-marseille .container-cards4 .card {
-    width: 100%;
-  }
-  
-  .activity-container .activity-marseille .container-cards4 .card a .card-image img {
-    height: 242px;
-    width: 100%;
-  }
-  
-  .activity-container .activity-marseille .container-cards5 {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .activity-container .activity-marseille .container-cards5 .card {
-    width: 100%;
-  }
-  
-  .activity-container .activity-marseille .container-cards5 .card a .card-image {
-    width: 100%;
-  }
-  
-  .activity-container .activity-marseille .container-cards5 .card a .card-image img {
-    height: 242px;
-  }
-  
-  .activity-container .activity-marseille .container-cards6 {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .activity-container .activity-marseille .container-cards6 .card {
-    width: 100%;
-  }
-  
-  .activity-container .activity-marseille .container-cards6 .card a .card-image {
-    width: 100%;
-  }
-  
-  .activity-container .activity-marseille .container-cards6 .card a .card-image img { 
-    height: 242px;
-  }
-  
-  .activity-container .activity-marseille .container-cards6 .card a .card-body {
-    margin-bottom: 12px;
-  }
-  
-  footer .footer-container {
-   flex-direction: column;
-  }
-  
 }

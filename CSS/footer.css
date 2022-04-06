@@ -10,7 +10,7 @@ footer .footer-container {
   gap: 35px;
 }
 
-.footer-container #bloc {
+.footer-container .bloc {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -20,7 +20,7 @@ footer .footer-container {
  justify-content: space-between;
 }
 
-.footer-container #bloc a {
+.footer-container .bloc a {
   text-decoration: none;
   color: #000000;
   padding-bottom: 10px;
