@@ -23,14 +23,11 @@
 
  body {
   font-family: 'Raleway', sans-serif;
-}
- 
-#bloc-page {
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  font-size: 14px;
-  font-weight: lighter;
+h2 {
+  font-size: 28px;
 }
  

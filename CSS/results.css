@@ -2,19 +2,20 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  margin-left: 55px;
 }
  
 .container .accomodations-marseille {
   background-color: var(--color-clear-gray);
   border-radius: 25px;
-  width: 61%;
+  max-width: 100%;
+  width: 65%;
   margin-top: 33px;
-  margin-left: 50px;
-  margin-right: 38px;
+  margin-right: 44px;
   height: fit-content; 
 }
 
-.container .accomodations-marseille h1{
+.container .accomodations-marseille h2 {
   margin: 0;
   padding-top: 40px;
   padding-left: 40px;
@@ -24,7 +25,7 @@
 .container .accomodations-marseille .container-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 50px;
   justify-content: center;
 }
 
@@ -33,12 +34,13 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray); 
+  max-width: 28%;
   width: 28%;
-  min-height: 100%;
+  max-height: auto;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
-  overflow: auto;
+  overflow: hidden;
 }
  
 .container .accomodations-marseille .container-cards .card a {
@@ -56,28 +58,29 @@
   display: flex;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  max-width: 100%;
   width: 100%;
-  min-height: 100%;
-  height: 110px;
+  height: 130px;
   object-fit: cover;
 }
 
 .container .accomodations-marseille .container-cards .card a .card-body {
   display: flex;
   flex-direction: column;
-  padding: 8px 0 0 10px;
+  padding: 10px 0 14px 10px;
 }
  
 .container .accomodations-marseille .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 16px;
-  padding-bottom: 5px;
+  font-size: 22px;
+  padding-bottom: 8px;
 }
  
 .container .accomodations-marseille .container-cards .card a .card-body p {
   margin: 0;
-  font-size: 14px;
-  padding-bottom: 6px;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 /*Hover accomodations card*/
@@ -86,7 +89,7 @@
   background-color: var(--color-blue);
   color: white;
   font-size: 16px;
-  padding: 20px 40px;
+  padding: 40px 20px 40px 20px;
 }
 
 .middle {
@@ -115,18 +118,19 @@
 #read-more  a {
   margin: 0;
   text-decoration: none;
-  padding: 24px 0 27px 43px;
+  padding: 24px 0 27px 50px;
 }
 
 #read-more a h3 {
-  font-size: 18px; 
+  font-size: 22px; 
   color: #000000;
 }
 
 .bloc-popular {
   background-color: var(--color-clear-gray);
   border-radius: 25px;
-  width: 29%;
+  width: 30%;
+  height: fit-content; 
 }
 
 .chart-bloc {
@@ -136,7 +140,7 @@
   justify-content: space-around;
 }
 
-.title-chart h1 {
+.title-chart h2 {
   margin: 0;
   padding-top: 40px;
 }
@@ -153,7 +157,7 @@
   list-style: none;
 }
 
-#font ul li{
+#font ul li {
   display: flex; 
 }
 
@@ -167,14 +171,15 @@
 #font ul li i {
   color: #000000;
   margin: 0;
-  
+  font-size: 29px;
 }
+
 .bloc-popular .container-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 35px;
   justify-content: center;
-  padding-bottom: 34px;
+  padding-bottom: 37px;
 }
 
 .bloc-popular .container-cards .card {
@@ -182,8 +187,8 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  flex-basis: 83%;
-  height: auto; 
+  flex-basis: 80%;
+  height: auto;
 }
   
 .bloc-popular .container-cards .card a {
@@ -192,32 +197,35 @@
   color: #000000;
 }
  
-.container .container-cards .card a .card-image img {
+.bloc-popular .container-cards .card a .card-image img {
   display: flex;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  width: 125px; 
+  max-width: 170px;
+  width: 170px;
   min-height: 100%;
-  height: 125px;
+  max-height: 184px;
+  overflow: hidden;
   object-fit: cover;
 }
 
 .bloc-popular .container-cards .card a .card-body {
   display: flex;
   flex-direction: column;
-  padding: 12px 30px 0 23px;
+  padding: 12px 64px 7px 23px;
 }
  
 .bloc-popular .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 16px;
-  padding-bottom: 5px; 
+  font-size: 22px;
+  padding-bottom: 8px; 
 }
  
 .bloc-popular .container-cards .card a .card-body p {
   margin: 0;
-  font-size: 14px;
-  padding-bottom: 45px;
+  font-size: 20px;
+  justify-content: center;
+  padding-bottom: 57px;
 }
 
 .stars {
@@ -225,8 +233,7 @@
 }
 
 .stars i {
- font-size: 11px;
- padding-bottom: 8px;
+ font-size: 17px;
 }
 
 .blue-color {

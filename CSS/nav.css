@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 38px 20px 42px 69px;
+  margin: 34px 40px 42px 80px;
 }
 
 #header-bloc {
@@ -11,16 +11,19 @@ header {
 
 #logo {
   display: flex;
-  align-items: baseline;
+  padding: 0;
+  justify-content: baseline;
 }
 
-#logo img {
-  width: 100px;
-  height: 45px;
+#logo a img {
+  width: 150px;
 }
 
 nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 nav ul {
@@ -29,7 +32,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 nav a {
@@ -38,18 +41,20 @@ nav a {
 }
 
 nav ul li #accomodations {
+  font-size: 21px;
   color: var(--color-blue);
   padding-left: 25px;
   padding-right: 25px;
 }
 
 nav ul li #activity {
+  font-size: 21px;
   color: #000000;
   padding-left: 50px;
   padding-right: 50px;
 }
 
 nav ul li a:hover {
-  border-top: 2px solid var(--color-blue);
-  padding-top: 51px;
+  border-top: 3px solid var(--color-blue);
+  padding-top: 62px;
 }

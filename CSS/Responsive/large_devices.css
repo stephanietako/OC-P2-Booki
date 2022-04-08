@@ -1,34 +1,16 @@
 /* large device (Desktop, 992px or less)*/
-@media all and (max-width: 992px) {
-
-#bloc-page {
-  width: auto;
-}
-
-.forms .btn-mobile {
-  display: none;
-}
-
-.forms input {
-  padding-left: 12px;
-  min-width: 25%;
-}
-  
-.forms .search {
-  width: 14%;
-}
+@media screen and (max-width: 992px) {
 
 .filters h3 {
   margin-right: 10px;
 }
   
 .filters ul li {
-  margin: 0 0 20px 10px;
+  margin: 0 0 20px 45px;
 }
- 
-.container .accomodations-marseille h1{
-  padding: 30px 0 18px 40px;
-  margin-left: 3px;
+
+.container .accomodations-marseille {
+  width: 100%; 
 }
 
 .container .accomodations-marseille .container-cards .card a .card-body h3 {
@@ -36,33 +18,29 @@
 }
 
 .container .accomodations-marseille {
-  width: 90%;
   margin-bottom: 40px;
-  justify-content: center;
 } 
   
 .container .bloc-popular {
-  width: 70%;
-  margin: auto;
+  width: 95%;
+  background-color: transparent;
+  padding-left: 10px;
 }
    
-.title-chart h1 {
-  margin: 0;
-  padding-top: 40px;
+.title-chart h2 {
+  padding-top: 15px;
 }
 
 .chart-bloc {
-  justify-content: space-between;
-  padding-left: 61px;
-  padding-right: 61px;
+  justify-content: space-between; 
+}
+
+#font {
+  margin-right: 3px;
 }
 
 .container .bloc-popular .container-cards {
   gap: 20px;
-}
-  
-.container .bloc-popular .container-cards .card {
-  width: 60%;
 }
    
 .container .bloc-popular .container-cards .card a .card-image img {
@@ -84,11 +62,16 @@
 }
   
 .activity-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 57px;
+  justify-content: space-between;
+  padding: 0 50px;
   justify-content: center;
-  gap: 40px;
+  gap: 34px;
 }
 
-.title-activity h1 {
+.title-activity h2 {
   margin: 47px 0 20px 0;
   text-align: center;
 }
@@ -130,7 +113,7 @@
 
 .activity-container .activity-marseille .container-cards3 .card {
   width: 100%; 
-  }
+}
   
 .activity-container .activity-marseille .container-cards3 .card a .card-image img {
   width: 100%;
@@ -174,7 +157,7 @@
 .activity-container .activity-marseille .container-cards6 {
   width: 100%;
   justify-content: center;
-  }
+}
 
 .activity-container .activity-marseille .container-cards6 .card {
   width: 100%;
@@ -192,5 +175,6 @@
 .activity-container .activity-marseille .container-cards6 .card a .card-body {
   margin-bottom: 12px;
 }
+
 
 }

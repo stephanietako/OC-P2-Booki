@@ -1,15 +1,14 @@
-.title-activity h1 {
-  margin: 60px 0 30px 62px;
+.title-activity h2 {
+  margin: 55px 0 30px 55px;
   color: #000000;
 }
 
 .activity-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5px;
   margin-bottom: 57px;
-  gap: 37px;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 50px;
 }
 
 .activity-container .activity-marseille {
@@ -26,34 +25,33 @@
 .activity-container .activity-marseille .container-cards1 .card {
   background-color: #FFFFFF;
   border-radius: 25px;
-  box-shadow: 3px 3px 15px var(--color-picker-gray);  
+  box-shadow: 3px 3px 15px var(--color-picker-gray);
 }
- 
+
 .activity-container .activity-marseille .container-cards1 .card a {
   text-decoration: none;
   color: #000000;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
- 
+
 .activity-container .activity-marseille .container-cards1 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 305px;
-  height: 385px;
-  object-fit: cover; 
-  object-position: 56% 100%;
+  width: 410px;
+  height: 485px;
+  object-fit: cover;
 }
- 
+
 .activity-container .activity-marseille .container-cards1 .card a .card-body {
-  padding: 17px 0 17px 15px; 
+  padding: 17px 0 17px 15px;
 }
- 
+
 .activity-container .activity-marseille .container-cards1 .card a h3 {
   margin: 0;
   font-size: 16px;
 }
- 
+
 /*2*/
 .activity-container .activity-marseille .container-cards2 {
   display: flex;
@@ -65,26 +63,26 @@
 .activity-container .activity-marseille .container-cards2 .card {
   background-color: #FFFFFF;
   border-radius: 25px;
-  box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  width: 300px; 
+  box-shadow: 3px 3px 15px var(--color-picker-gray);
+  width: 410px;
 }
- 
+
 .activity-container .activity-marseille .container-cards2 .card a {
   text-decoration: none;
   color: #000000;
   display: flex;
   flex-direction: column;
 }
-  
+
 .activity-container .activity-marseille .container-cards2 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 100%;
-  height: 176px;
+  height: 225px;
   object-fit: cover;
   object-position: 20% 40%;
 }
- 
+
 .activity-container .activity-marseille .container-cards2 .card a .card-body {
   display: flex;
   margin: 17px 0 17px 15px;
@@ -94,51 +92,51 @@
   margin: 0;
   font-size: 16px;
 }
- 
+
 /*3*/
 .activity-container .activity-marseille .container-cards3 {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .activity-container .activity-marseille .container-cards3 .card {
   background-color: #FFFFFF;
   border-radius: 25px;
-  box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  width: 300px; ; 
+  box-shadow: 3px 3px 15px var(--color-picker-gray);
+  width: 410px;
 }
- 
+
 .activity-container .activity-marseille .container-cards3 .card a {
   text-decoration: none;
   color: #000000;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
- 
+
 .activity-container .activity-marseille .container-cards3 .card a .card-image {
   width: 100%;
-  
+
 }
 .activity-container .activity-marseille .container-cards3 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 100%;
-  height: 111px;
+  height: 163px;
   object-fit: cover;
-  object-position: 50% 20%; 
+  object-position: 50% 20%;
 }
- 
+
 .activity-container .activity-marseille .container-cards3 .card a .card-body {
   display: flex;
   margin: 17px 0 17px 15px;
 }
- 
+
 .activity-container .activity-marseille .container-cards3 .card a h3 {
   margin: 0;
   font-size: 16px;
 }
- 
+
 /*4*/
 .activity-container .activity-marseille .container-cards4 {
   display: flex;
@@ -150,37 +148,37 @@
 .activity-container .activity-marseille .container-cards4 .card {
   background-color: #FFFFFF;
   border-radius: 25px;
-  box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  
+  box-shadow: 3px 3px 15px var(--color-picker-gray);
+
 }
- 
+
 .activity-container .activity-marseille .container-cards4 .card a {
   text-decoration: none;
   color: #000000;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
- 
+
 .activity-container .activity-marseille .container-cards4 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 305px;
-  height: 385px;
+  width: 410px;
+  height: 485px;
   object-fit: cover;
   object-position: 44% 10%;
 }
- 
+
 .activity-container .activity-marseille .container-cards4 .card a .card-body {
   display: flex;
   flex-direction: column;
   margin: 17px 0 17px 15px;
 }
- 
+
 .activity-container .activity-marseille .container-cards4 .card a h3 {
   margin: 0;
   font-size: 16px;
 }
- 
+
 /*5*/
 .activity-container .activity-marseille .container-cards5 {
   display: flex;
@@ -191,26 +189,26 @@
 .activity-container .activity-marseille .container-cards5 .card {
   background-color: #FFFFFF;
   border-radius: 25px;
-  box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  width: 300px; 
+  box-shadow: 3px 3px 15px var(--color-picker-gray);
+  width: 410px;
 }
- 
+
 .activity-container .activity-marseille .container-cards5 .card a {
   text-decoration: none;
   color: #000000;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
-  
+
 .activity-container .activity-marseille .container-cards5 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 100%;
-  height: 137px;
+  height: 188px;
   object-fit: cover;
-  object-position: 30% 10%; 
+  object-position: 30% 10%;
 }
- 
+
 .activity-container .activity-marseille .container-cards5 .card a .card-body {
   display: flex;
   margin: 17px 0 17px 15px;
@@ -220,7 +218,7 @@
   margin: 0;
   font-size: 16px;
 }
- 
+
 /*6*/
 .activity-container .activity-marseille .container-cards6 {
   display: flex;
@@ -231,34 +229,32 @@
 .activity-container .activity-marseille .container-cards6 .card {
   background-color: #FFFFFF;
   border-radius: 25px;
-  box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  width: 300px; 
+  box-shadow: 3px 3px 15px var(--color-picker-gray);
+  width: 410px;
 }
- 
+
 .activity-container .activity-marseille .container-cards6 .card a {
   text-decoration: none;
   color: #000000;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
-  
+
 .activity-container .activity-marseille .container-cards6 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
   object-position: 20% 20%;
 }
- 
+
 .activity-container .activity-marseille .container-cards6 .card a .card-body {
   display: flex;
   margin: 17px 0 17px 15px;
 }
- 
+
 .activity-container .activity-marseille .container-cards6 .card a h3 {
   margin: 0;
   font-size: 16px;
 }
-
-

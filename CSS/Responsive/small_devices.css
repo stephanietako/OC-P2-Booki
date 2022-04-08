@@ -1,53 +1,25 @@
-@media all and (max-width : 375px) {
-
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
+@media screen and (max-width : 375px) {
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
   }
   
-#logo {
-    display: flex;
-    align-items: baseline;
-    padding: 0%;
-  }
-  
-#logo img {
-    width: 100px;
-    height: 45px;
-    margin-left: 60px;
-  }
-  
-nav ul {
-  padding-left: 0;
-  align-items: center;
+header {
+  display: flex;
+  flex-direction: column;
 }
-
-nav ul li #accomodations {
-  padding-left: 57px;
-  padding-right: 27px;
+ 
+#accomodations {
+  border-bottom: 2px solid var(--color-picker-gray);
   padding-bottom: 10px;
-  text-align: center;
 }
-  
-nav ul li #activity {
-  padding-right: 85px;
-  padding-left: 45px; 
-  padding-bottom: 10px;
-  text-align: center;
-}
-  
-nav ul li a:hover {
-  border-top: none;
+ 
+#activity {
   border-bottom: 2px solid var(--color-blue);
   padding-bottom: 10px;
 }
-
-#bloc-page {
-    width: auto;
-  }
-            
+         
 .bloc-text {
   margin-top: 15px;
   margin-left: 15px;
@@ -55,54 +27,67 @@ nav ul li a:hover {
 }
 
 .bloc-text h1 {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .bloc-text p {
-  font-size: 14px;
+  font-size: 17px;
 }
- 
-.forms .search {
-  display: none;
+
+.forms input{
+  font-size: 19px;
+  margin: 0;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;;
+}
+
+.forms i.fa-solid.fa-location-dot {
+  background-color: var(--color-clear-gray);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .forms {
- margin: 15px;
-}
- 
-.forms input {
-  display: flex;
-  max-width: none;
-  min-width: none;
-  width: auto;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
+  margin: 20px 0 20px 15px;
   position: relative;
+  width: 65%;
 }
 
-.forms .btn-mobile {
+.forms #value {
+  visibility: hidden;
+}
+
+.forms #btn-mobile {
   display: flex;
   background-color: var(--color-blue);
   color: #FFFFFF;
   border: none;
-  font-size: larger;
-  font-weight: bold;
   border-radius:15px;
-  width: 50px;
-  height: 50px;
-  margin-left: 250px;
+  width: 54px;
+  height: 54px;
+  margin-left: 170px;
   float: none;
   max-width: none;
+  visibility: visible;
   position: absolute;
+  top: 50%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  padding-top: 18px;
+  padding-left: 18px;
+  font-size: 21px;
 }
     
-.forms .btn-mobile i {
+.forms #btn-mobile i {
   display: flex;
-  padding-top: 14px;
-  padding-left: 10px;
+}  
+
+.filters h3 {
+  padding-left: 7px;
 }
-  
+
 .filters h3 {
   margin: 17px 0 0 15px;
 }
@@ -135,54 +120,39 @@ nav ul li a:hover {
 } 
 
 .container .accomodations-marseille {
-  margin: 0;
+  width: 100%;
   border-radius: 0;
   order: 2;
   background-color: transparent
 }
-        
+
+.container .accomodations-marseille h2 {
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 22px;
+}
+
+#read-more a {
+  padding: 24px 0 5px 50px;
+}
+
 .container .bloc-popular {
-  margin: auto;
-  border-radius: 0;
-}
- 
-.bloc-popular .container-cards .card {
-  flex-basis: 90%;
-  height: auto; 
-}
-.container .most-popular .font-chart h1 {
-  padding: 30px 0 18px 40px;
-  margin-left: 3px;
-}
- 
-.container .bloc-popular .container-cards .card a .card-body p {
-  margin: 0;
-  font-size: 14px;
-  padding-bottom: 45px;
+  width: 95%;
+  background-color: transparent;
+  padding-right: 33px;
 }
 
-.chart-bloc {
-  margin: 0;
-  padding-left: 26px;
-  padding-right: 23px;
-}
-
-
-.title-chart h1 {
-  margin: 0;
-  padding-top: 23px;
-}
-
-.font-chart ul li i a {
-  padding-left: 552px;
-}
-         
 .bloc-popular {
   width: 100%;   
 }
           
 .container .bloc-popular .container-cards {
   gap: 20px;
+}
+
+.container .accomodations-marseille .container-cards .card {
+  max-width: 100%;
+  width: 100%;
 }
              
 .container .bloc-popular .container-cards .card a .card-image img {
@@ -205,22 +175,15 @@ nav ul li a:hover {
   font-size: 14px;      
 }
 
-.container .accomodations-marseille .container-cards .card {
-  width: 90%; 
-}
-
-.title-activity h1 {
-  margin: 0px 0 20px 33px;
-  text-align:left;
-}
-
-.activity-container .activity-marseille {
-  width: 85%;
+.title-activity h2 {
+  margin: 0px 0 20px 0;
+  text-align: center;
 }
 
 footer .footer-container {
   flex-direction: column;
   gap: 0;
+  width: 100%;
 }
 
 #contact {

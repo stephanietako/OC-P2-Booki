@@ -3,7 +3,7 @@ footer .footer-container {
   flex-wrap: wrap;
   background-color: var(--color-clear-gray);
   margin-top: 17px;
-  padding-left: 40px;
+  padding-left: 55px;
   align-items: baseline;
   width: 100%;
   min-height: 215px;
@@ -17,7 +17,7 @@ footer .footer-container {
   padding-top: 25px;
   flex-direction: column;
   min-width: 30%;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .footer-container .bloc a {
