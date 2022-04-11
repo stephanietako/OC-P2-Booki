@@ -36,11 +36,11 @@
   box-shadow: 3px 3px 15px var(--color-picker-gray); 
   max-width: 28%;
   width: 28%;
-  max-height: auto;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
   overflow: hidden;
+  height: fit-content;
 }
  
 .container .accomodations-marseille .container-cards .card a {
@@ -73,7 +73,7 @@
  
 .container .accomodations-marseille .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   padding-bottom: 8px;
 }
  
@@ -118,7 +118,7 @@
 #read-more  a {
   margin: 0;
   text-decoration: none;
-  padding: 24px 0 27px 50px;
+  padding: 24px 0 16px 50px;
 }
 
 #read-more a h3 {
@@ -187,7 +187,7 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  flex-basis: 80%;
+  flex-basis: 85%;
   height: auto;
 }
   
@@ -212,18 +212,18 @@
 .bloc-popular .container-cards .card a .card-body {
   display: flex;
   flex-direction: column;
-  padding: 12px 64px 7px 23px;
+  padding: 12px 0 7px 23px;
 }
  
 .bloc-popular .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   padding-bottom: 8px; 
 }
  
 .bloc-popular .container-cards .card a .card-body p {
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
   justify-content: center;
   padding-bottom: 57px;
 }

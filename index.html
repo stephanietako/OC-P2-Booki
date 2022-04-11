@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/Responsive/large_devices.css">
@@ -39,13 +39,7 @@
         <form action="#" class="forms">
             <i class="fa-solid fa-location-dot"></i>
             <input type="text" class="form-control" id="inputLocation" value=" Marseille, France" />
-            <button type="submit" class="search" id="value" value="rechercher"> Rechercher <span i class="fa-solid fa-magnifying-glass" id="btn-mobile"></i></span></button>
-           
-           
-            <!--
- <button type="submit" class="btn-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
-            -->
-           
+            <button type="submit" class="search" id="value" value="rechercher"> Rechercher <span><i class="fa-solid fa-magnifying-glass" id="btn-mobile"></i></span></button>
         </form>
         <!--filters-->
         <div class="filters">
@@ -310,7 +304,7 @@
         <div class="title-activity" id="activity-bloc">
             <h2>Activités à Marseille</h2>
         </div>
-        <article class="activity-container">
+        <div class="activity-container">
             <section class="activity-marseille">
                 <div class="container-cards1">
                     <div class="card">
@@ -413,9 +407,8 @@
                         </a>
                     </div>
                 </div>
-
             </section>
-        </article>
+        </div>
         <!--FOOTER-->
         <footer>
             <div class="footer-container">
@@ -453,6 +446,5 @@
                 </div>
             </div>
         </footer>
- 
 </body>
 </html>

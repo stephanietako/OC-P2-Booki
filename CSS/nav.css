@@ -12,7 +12,7 @@ header {
 #logo {
   display: flex;
   padding: 0;
-  justify-content: baseline;
+  align-items: baseline;
 }
 
 #logo a img {
