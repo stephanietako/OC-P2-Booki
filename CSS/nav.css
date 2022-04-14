@@ -3,7 +3,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding-left: 75px;
+  padding: 32px;
+  text-align: center;
+  transition-duration: 0.1s;
 }
 
 #logo {
@@ -14,33 +16,29 @@ header {
 
 #logo img {
   width: 100px;
-
 }
 
 nav {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 50px;  
+  flex-wrap: wrap;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
+nav a {
+  padding: 32px;
+  border-top: 3px solid transparent;
+  text-decoration: none;
 }
 
-.header-nav li a {
-  float: left;
-  display: flex;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
-  margin-right: 15px;
-  font-size: 15px;
-  color: #181818;
-  padding: 40px 50px 0px 50px;
-  text-decoration: none;
+nav a:hover{
+  border-top: 3px solid blue;
+}
+
+#logo {
+  margin-right: auto;
+  padding: 0 2rem;
+
 }
 
 .header-nav #accomodations {
@@ -48,17 +46,5 @@ nav ul {
 }
 
 .header-nav #activity {
-  color: #000000; 
+  color: black;
 }
-
-.header-nav a:hover {
-  border-top: 2px solid red;
-
-}
-
-.header-nav a.links:hover {
-  border-top: 2px solid blue;
- 
-
-}
-
