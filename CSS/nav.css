@@ -1,60 +1,64 @@
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 34px 40px 42px 80px;
-}
-
-#header-bloc {
-  display: flex;
+  padding-left: 75px;
 }
 
 #logo {
   display: flex;
-  padding: 0;
+  flex-direction: row;
   align-items: baseline;
 }
 
-#logo a img {
-  width: 150px;
+#logo img {
+  width: 100px;
+
 }
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 50px;  
 }
 
 nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav li a {
+  float: left;
   display: flex;
-  list-style: none;
-}
-
-nav li {
-  margin-right: 0;
-}
-
-nav a {
-  font-size: 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  margin-right: 15px;
+  font-size: 15px;
+  color: #181818;
+  padding: 40px 50px 0px 50px;
   text-decoration: none;
 }
 
-nav ul li #accomodations {
-  font-size: 21px;
+.header-nav #accomodations {
   color: var(--color-blue);
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
-nav ul li #activity {
-  font-size: 21px;
-  color: #000000;
-  padding-left: 50px;
-  padding-right: 50px;
+.header-nav #activity {
+  color: #000000; 
 }
 
-nav ul li a:hover {
-  border-top: 3px solid var(--color-blue);
-  padding-top: 62px;
+.header-nav a:hover {
+  border-top: 2px solid red;
+  cursor: pointer;
 }
+
+.header-nav a.links:hover {
+  border-top: 2px solid blue;
+  cursor: pointer;
+
+}
+

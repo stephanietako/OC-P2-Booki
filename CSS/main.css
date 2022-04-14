@@ -22,12 +22,17 @@
  }
 
  body {
-  font-family: 'Raleway', sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bloc-page {
+  width: 90%;
+  margin: auto;
+  border: 1px solid red;
+ 
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 20px;
 }
- 

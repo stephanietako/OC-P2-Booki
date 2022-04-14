@@ -2,17 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  margin-left: 55px;
+  margin-left: 50px;
 }
  
 .container .accomodations-marseille {
   background-color: var(--color-clear-gray);
   border-radius: 25px;
   max-width: 100%;
-  width: 65%;
-  margin-top: 33px;
-  margin-right: 44px;
-  height: fit-content; 
+  width: 64%;
+  height: fit-content;
+  margin-right: 40px;
 }
 
 .container .accomodations-marseille h2 {
@@ -25,8 +24,8 @@
 .container .accomodations-marseille .container-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center;
+  padding-left: 40px;
+  gap: 31px;
 }
 
 .container .accomodations-marseille .container-cards .card {
@@ -34,8 +33,7 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  max-width: 28%;
-  width: 28%;
+  flex-basis: 29%;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -68,18 +66,18 @@
 .container .accomodations-marseille .container-cards .card a .card-body {
   display: flex;
   flex-direction: column;
-  padding: 10px 0 14px 10px;
+  padding: 10px 0 7px 10px;
 }
  
 .container .accomodations-marseille .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 20px;
-  padding-bottom: 8px;
+  font-size: 17px;
+  padding-bottom: 4px;
 }
  
 .container .accomodations-marseille .container-cards .card a .card-body p {
   margin: 0;
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 10px;
 }
 
@@ -88,8 +86,9 @@
   display: flex;
   background-color: var(--color-blue);
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   padding: 40px 20px 40px 20px;
+  text-align: center;
 }
 
 .middle {
@@ -122,7 +121,7 @@
 }
 
 #read-more a h3 {
-  font-size: 22px; 
+  font-size: 17px; 
   color: #000000;
 }
 
@@ -165,13 +164,12 @@
   text-decoration: none;
   list-style: none;
   padding-bottom: 22px; 
-  font-size: 22px;
 }
 
 #font ul li i {
   color: #000000;
   margin: 0;
-  font-size: 29px;
+  font-size: 22px;
 }
 
 .bloc-popular .container-cards {
@@ -187,8 +185,9 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray); 
-  flex-basis: 85%;
-  height: auto;
+  flex-basis: 81%;
+  height: fit-content;
+  position: relative;
 }
   
 .bloc-popular .container-cards .card a {
@@ -196,15 +195,20 @@
   text-decoration: none;
   color: #000000;
 }
- 
+
+.bloc-popular .container-cards .card a .card-image {
+  position: relative;
+}
+
 .bloc-popular .container-cards .card a .card-image img {
   display: flex;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  max-width: 170px;
-  width: 170px;
-  min-height: 100%;
+  width: 120px;
+  /*
   max-height: 184px;
+  */
+  height: 150px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -212,18 +216,18 @@
 .bloc-popular .container-cards .card a .card-body {
   display: flex;
   flex-direction: column;
-  padding: 12px 0 7px 23px;
+  padding: 12px 72px 7px 26px;
 }
  
 .bloc-popular .container-cards .card a .card-body h3 {
   margin: 0;
-  font-size: 20px;
-  padding-bottom: 8px; 
+  font-size: 17px;
+  padding-bottom: 4px; 
 }
  
 .bloc-popular .container-cards .card a .card-body p {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   justify-content: center;
   padding-bottom: 57px;
 }
@@ -233,7 +237,7 @@
 }
 
 .stars i {
- font-size: 17px;
+  font-size: 12px;
 }
 
 .blue-color {

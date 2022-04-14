@@ -1,59 +1,56 @@
-@media screen and (max-width : 375px) {
+@media screen and (max-width: 768px) {
+
   html,
   body{
     width:100%;
     overflow-x:hidden;
   }
-  
-header {
+
+  header {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-left: 0;
 }
- 
-#accomodations {
-  border-bottom: 2px solid var(--color-picker-gray);
-  padding-bottom: 10px;
-}
- 
-#activity {
-  border-bottom: 2px solid var(--color-blue);
-  padding-bottom: 10px;
+
+#logo {
+  display: flex;
+  align-items: baseline;
+  padding: 0%;
 }
          
 .bloc-text {
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-top: 25px;
+  margin-left: 34px;
+  margin-right: 23px;
 }
-
-.bloc-text h1 {
-  font-size: 20px;
-}
-
-.bloc-text p {
-  font-size: 17px;
-}
-
+    
 .forms input{
-  font-size: 19px;
-  margin: 0;
-  border-top-right-radius: 14px;
-  border-bottom-right-radius: 14px;;
+  border-right: none;
+  border-left: none;
+  border-top: #F2F2F2 1px solid;
+  border-bottom: #F2F2F2 1px solid;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  width: 224px;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .forms i.fa-solid.fa-location-dot {
   background-color: var(--color-clear-gray);
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
-  padding: 20px;
+  padding: 17px;
   font-size: 20px;
 }
 
 .forms {
-  margin: 20px 0 20px 15px;
+  margin: 20px 0 20px 30px;
   position: relative;
-  width: 65%;
+  width: 50%;
 }
+
 
 .forms #value {
   visibility: hidden;
@@ -67,7 +64,7 @@ header {
   border-radius:15px;
   width: 54px;
   height: 54px;
-  margin-left: 170px;
+  margin-left: 157px;
   float: none;
   max-width: none;
   visibility: visible;
@@ -85,61 +82,40 @@ header {
 }  
 
 .filters h3 {
-  padding-left: 7px;
+  margin: 20px 0 0 37px;
+  padding-left: 2px;
 }
 
-.filters h3 {
-  margin: 17px 0 0 15px;
-}
-  
 .filters ul {
- margin: 0;
- padding-top: 10px;
- padding-left: 10px;
+ padding-left: 0;
 }
-  
+
 #font-info {
   display: flex;
-  margin-left: 25px; 
-  margin-bottom: 15px;
+  margin-left: 36px;
+  margin-bottom: 33px;
 }
-   
-#font-info a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 14px;
-}
- 
 #font-info a i {
-  color: var(--color-blue);
-  border: solid 1px var(--color-picker-gray);
-  padding: 4px 8px 4px 8px;
-  border-radius: 20px;
-  font-size: small;
-  margin: 0; 
-} 
+  margin: auto;
+}
 
+.container {
+  margin-left: 17px;
+}
 .container .accomodations-marseille {
   width: 100%;
+  margin: auto;
   border-radius: 0;
   order: 2;
   background-color: transparent
 }
 
-.container .accomodations-marseille h2 {
-  margin: 0;
-  padding-top: 4px;
-  padding-bottom: 22px;
-}
-
-#read-more a {
-  padding: 24px 0 5px 50px;
-}
-
-.container .bloc-popular {
-  width: 95%;
-  background-color: transparent;
-  padding-right: 33px;
+.container .accomodations-marseille .container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-right: 49px;
 }
 
 .bloc-popular {
@@ -148,11 +124,6 @@ header {
           
 .container .bloc-popular .container-cards {
   gap: 20px;
-}
-
-.container .accomodations-marseille .container-cards .card {
-  max-width: 100%;
-  width: 100%;
 }
              
 .container .bloc-popular .container-cards .card a .card-image img {
@@ -175,9 +146,112 @@ header {
   font-size: 14px;      
 }
 
-.title-activity h2 {
-  margin: 0px 0 20px 0;
-  text-align: center;
+.container .accomodations-marseille .container-cards .card {
+  width: 90%; 
+}
+
+.title-activity h1 {
+  margin: 0px 0 20px 33px;
+  text-align:left;
+}
+
+.activity-container .activity-marseille {
+  width: 85%;
+}
+       
+.activity-container .activity-marseille .container-cards1 {
+  width: 100%;   
+}
+  
+.activity-container .activity-marseille .container-cards1 .card a .card-image img {
+  width: 100%;
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards2 {
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-container .activity-marseille .container-cards2 .card {
+  width: 100%;
+  }
+  
+.activity-container .activity-marseille .container-cards2 .card a .card-image img {
+  width: 100%;
+  height: 215px;
+  object-position: 0;
+}
+
+.activity-container .activity-marseille .container-cards3 {
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-container .activity-marseille .container-cards3 .card {
+  width: 100%; 
+}
+  
+.activity-container .activity-marseille .container-cards3 .card a .card-image img {
+  width: 100%;
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards4 {
+  width: 100%;
+  height: auto;
+}
+  
+.activity-container .activity-marseille .container-cards4 .card {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards4 .card a .card-image img {
+  height: 215px;
+  width: 100%;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards5 {
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-container .activity-marseille .container-cards5 .card {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards5 .card a .card-image {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards5 .card a .card-image img {
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards6 {
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-container .activity-marseille .container-cards6 .card {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards6 .card a .card-image {
+  width: 100%;
+}
+  
+.activity-container .activity-marseille .container-cards6 .card a .card-image img { 
+  height: 215px;
+  object-position: 0;
+}
+  
+.activity-container .activity-marseille .container-cards6 .card a .card-body {
+  margin-bottom: 12px;
 }
 
 footer .footer-container {
@@ -189,6 +263,4 @@ footer .footer-container {
 #contact {
   padding-bottom: 45px;
 }
-
-}  
-    
+}

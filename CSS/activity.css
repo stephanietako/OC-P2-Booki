@@ -38,7 +38,7 @@
 .activity-container .activity-marseille .container-cards1 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 345px;
+  width: 385px;
   height: 485px;
   object-fit: cover;
 }
@@ -65,7 +65,7 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray);
-  width: 345px;
+  width: 365px;
 }
 
 .activity-container .activity-marseille .container-cards2 .card a {
@@ -105,7 +105,7 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray);
-  width: 345px;
+  width: 365px;
 }
 
 .activity-container .activity-marseille .container-cards3 .card a {
@@ -164,7 +164,7 @@
 .activity-container .activity-marseille .container-cards4 .card a .card-image img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 345px;
+  width: 385px;
   height: 485px;
   object-fit: cover;
   object-position: 44% 10%;
@@ -192,7 +192,7 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray);
-  width: 345px;
+  width: 365px;
 }
 
 .activity-container .activity-marseille .container-cards5 .card a {
@@ -232,7 +232,7 @@
   background-color: #FFFFFF;
   border-radius: 25px;
   box-shadow: 3px 3px 15px var(--color-picker-gray);
-  width: 345px;
+  width: 365px;
 }
 
 .activity-container .activity-marseille .container-cards6 .card a {

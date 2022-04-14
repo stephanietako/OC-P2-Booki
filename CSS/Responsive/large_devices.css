@@ -10,35 +10,27 @@
 }
 
 .container .accomodations-marseille {
-  width: 100%; 
+  width: 100%;
 }
 
 .container .accomodations-marseille .container-cards .card a .card-body h3 {
   font-size: 17px;
 }
-
-.container .accomodations-marseille {
-  margin-bottom: 40px;
-} 
-  
-.container .bloc-popular {
-  width: 95%;
-  background-color: transparent;
-  padding-left: 10px;
-}
-   
+ 
 .title-chart h2 {
   padding-top: 15px;
-}
-
-.chart-bloc {
-  justify-content: space-between; 
 }
 
 #font {
   margin-right: 3px;
 }
 
+.container .bloc-popular {
+  width: 95%;
+  background-color: transparent;
+  padding-left: 10px;
+}
+  
 .container .bloc-popular .container-cards {
   gap: 20px;
 }
@@ -67,7 +59,6 @@
   margin-bottom: 57px;
   justify-content: space-between;
   padding: 0 50px;
-  justify-content: center;
   gap: 34px;
 }
 
@@ -84,7 +75,6 @@
   width: 100%;   
 }
   
- 
 .activity-container .activity-marseille .container-cards1 .card a .card-image img {
   width: 100%;
   height: 215px;
@@ -93,7 +83,7 @@
   
 .activity-container .activity-marseille .container-cards2 {
   width: 100%;
-  justify-content: center;
+
 }
 
 .activity-container .activity-marseille .container-cards2 .card {
@@ -108,7 +98,6 @@
 
 .activity-container .activity-marseille .container-cards3 {
   width: 100%;
-  justify-content: center;
 }
 
 .activity-container .activity-marseille .container-cards3 .card {
@@ -126,45 +115,15 @@
   height: auto;
 }
   
-.activity-container .activity-marseille .container-cards4 .card {
-  width: 100%;
-}
-  
 .activity-container .activity-marseille .container-cards4 .card a .card-image img {
   height: 215px;
   width: 100%;
   object-position: 0;
 }
-  
-.activity-container .activity-marseille .container-cards5 {
-  width: 100%;
-  justify-content: center;
-}
-
-.activity-container .activity-marseille .container-cards5 .card {
-  width: 100%;
-}
-  
-.activity-container .activity-marseille .container-cards5 .card a .card-image {
-  width: 100%;
-}
-  
+    
 .activity-container .activity-marseille .container-cards5 .card a .card-image img {
   height: 215px;
   object-position: 0;
-}
-  
-.activity-container .activity-marseille .container-cards6 {
-  width: 100%;
-  justify-content: center;
-}
-
-.activity-container .activity-marseille .container-cards6 .card {
-  width: 100%;
-}
-  
-.activity-container .activity-marseille .container-cards6 .card a .card-image {
-  width: 100%;
 }
   
 .activity-container .activity-marseille .container-cards6 .card a .card-image img { 
@@ -175,6 +134,5 @@
 .activity-container .activity-marseille .container-cards6 .card a .card-body {
   margin-bottom: 12px;
 }
-
 
 }

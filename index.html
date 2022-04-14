@@ -16,25 +16,30 @@
 </head>
 
 <body>
-
+    <div class="bloc-page">
         <header>
-            <div id="header-bloc">
+            
                 <div id="logo">
-                    <a href="#"><img src="images/Logo/Booki.png" alt="logo de Booki" /></a>
+                        <a href="#"><img src="images/Logo/Booki.png" alt="logo de Booki" /></a>
                 </div>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#accomodations-bloc" id="accomodations">Hébergements</a></li>
-                    <li><a href="#activity-bloc" id="activity">Activités</a></li>
-                </ul>
-            </nav>
-        </header>
-
+                    <nav> 
+                        <div class="header-nav">
+                            <ul>
+                                <li>
+                                    <a class="links" href="#accomodations-bloc" id="accomodations">Hébergements</a>
+                                </li>
+                                <li>
+                                    <a href="#activity" id="activity">Activités</a>
+                                </li>  
+                            </ul>
+                            </div>
+                    </nav>
+            </header>
+    
         <div class="bloc-text">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-        </div>
+        </div>  
         <!--Form -->
         <form action="#" class="forms">
             <i class="fa-solid fa-location-dot"></i>
@@ -132,7 +137,7 @@
                             <div class="card-body">
                                 <h3>Hôtel les mouettes</h3>
                                 <p>Nuit à partir de 76<strong>€</strong></p>
-                                <div class="stars">
+                                <div class="stars" id="stars-popular">
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
                                     <i class="fa-solid fa-star blue-color"></i>
@@ -446,5 +451,7 @@
                 </div>
             </div>
         </footer>
+    </div>
+
 </body>
 </html>
