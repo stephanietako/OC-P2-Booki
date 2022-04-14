@@ -24,13 +24,8 @@
   background-color: #FFFFFF;
   font-weight: bold;
   color: #000000;
-  /*
-  font-size: 17px;
-  max-width: 100%;
-  */
   border: 1px solid var(--color-clear-gray);
   padding-top: 14px;
-  
   padding-bottom: 14px;
   padding-left: 14px;
   padding: 16px 24px;

@@ -1,7 +1,6 @@
 /* large device (Desktop, 992px or less)*/
 @media screen and (max-width: 992px) {
 
-
 .filters h3 {
   margin-right: 10px;
 }
@@ -64,8 +63,7 @@
 }
 
 .title-activity h2 {
-  margin: 47px 0 20px 0;
-  text-align: center;
+  margin: 47px 0 20px 35px;
 }
   
 .activity-container .activity-marseille {

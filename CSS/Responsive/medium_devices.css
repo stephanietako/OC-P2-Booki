@@ -5,6 +5,9 @@
   body{
     overflow-x:hidden;
   }
+  h1 {
+    font-size: 20px;
+}
 
 .bloc-page {
   width: auto;
@@ -13,15 +16,21 @@
 header {
     padding-left: 0;  
 }
-  
+ 
+#logo{
+  padding-left: 124px;
+}
+
 #logo img {
   width: 100px;
 }
 
 nav a {
   font-size: 18px;
-  padding-bottom: 3px;
-  text-decoration: none; 
+  padding-bottom: 12px;
+  text-decoration: none;
+  background-color: none;
+  text-decoration: none;
 }
 
 .header-nav {
@@ -33,6 +42,8 @@ nav a {
   flex-basis: 50%;
   text-align: center;
   border-bottom: 3px solid lightgrey;
+  background-color: none;
+  text-decoration: none;
 }
 
 .header-nav a:hover {
@@ -50,7 +61,10 @@ nav a {
   border-bottom: 3px solid #F2F2F2;
 }
  
-
+.bloc-text {
+  margin-left: 15px
+}
+  
 #font-info a i {
   margin: auto;
 }
@@ -66,6 +80,12 @@ nav a {
 
 #font-info a i {
   margin: 0px 0 30px 12px;
+}
+
+.forms {
+    margin: 20px 0 20px 30px;
+    position: relative;
+    width: 60%;
 }
 
 .forms input {
@@ -88,7 +108,7 @@ nav a {
   border-radius: 15px;
   width: 54px;
   height: 54px;
-  margin-left: 224px;
+  margin-left: 98px;
   float: none;
   max-width: none;
   visibility: visible;
@@ -97,7 +117,7 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   padding-top: 18px;
-  padding-left: 4px;
+  padding-left: 18px;
   font-size: 21px;
 }
 
@@ -110,7 +130,6 @@ nav a {
   border-radius: 0;
   order: 2;
   background-color: transparent
-
 }
 
 .container .accomodations-marseille .container-cards {
@@ -122,13 +141,12 @@ nav a {
 }
 
 .container .accomodations-marseille .container-cards .card {
-  flex-basis: 45%;
-  opacity: 1;
+    flex-basis: 70%;
+    opacity: 1;
 }
 
-.title-activity h1 {
-  margin: 0px 0 20px 33px;
-  text-align:left;
+.activity-container {
+  padding: 0;
 }
 
 .activity-container .activity-marseille {
@@ -231,20 +249,24 @@ nav a {
 }
 
 .container .bloc-popular {
-  background-color: var(--color-blue);
+  background-color:  var(--color-clear-gray);
 }
 
 .container .bloc-popular .container-cards {
-  gap: 20px;
+  padding-right: 7px;
 }
 
 .bloc-popular .container-cards .card {
-  flex-basis: 95%;
+  flex-basis: 88%;
 }
+
+.bloc-popular .container-cards .card a .card-image {
+  margin-right: 17px;
+}
+
 .container .bloc-popular .container-cards .card a .card-image img {
   min-width: 125px;
   max-width: 125px;
-
 }
 
 .bloc-popular .container-cards .card a .card-body {

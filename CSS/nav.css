@@ -33,12 +33,11 @@ nav a {
 
 nav a:hover{
   border-top: 3px solid blue;
+  padding-top: 59px;
 }
 
 #logo {
-  margin-right: auto;
-  padding: 0 2rem;
-
+  padding: 0 36px;
 }
 
 .header-nav #accomodations {

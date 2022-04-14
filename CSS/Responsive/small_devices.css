@@ -6,6 +6,9 @@
     overflow-x:hidden;
   }
 
+  h1 {
+    font-size: 20px;
+}
   header {
   display: flex;
   flex-direction: column;
@@ -13,14 +16,12 @@
   margin-left: 0;
 }
 
-#logo {
-  padding: 0%;
-}
-         
+#logo{
+  padding-left: 124px;
+}        
+
 .bloc-text {
-  margin-top: 25px;
-  margin-left: 34px;
-  margin-right: 23px;
+  margin-left: 15px
 }
     
 .forms input{
@@ -98,8 +99,9 @@
 }
 
 .container {
-  margin-left: 17px;
+  margin-left: 0;
 }
+
 .container .accomodations-marseille {
   width: 100%;
   margin: auto;
@@ -116,14 +118,31 @@
   margin-right: 49px;
 }
 
+.container .accomodations-marseille .container-cards .card {
+  flex-basis: 70%;
+  opacity: 1;
+}
+
 .bloc-popular {
   width: 100%;   
 }
-          
+.container .bloc-popular {
+  border-radius: 0;
+  width: 100%;
+}         
+
 .container .bloc-popular .container-cards {
-  gap: 20px;
+  padding-right: 7px;
 }
-             
+
+.bloc-popular .container-cards .card {
+  flex-basis: 88%;
+}
+
+.bloc-popular .container-cards .card a .card-image {
+  margin-right: 17px;
+}
+
 .container .bloc-popular .container-cards .card a .card-image img {
   width: 106px;   
 }
@@ -145,13 +164,25 @@
 }
 
 .container .accomodations-marseille .container-cards .card {
-  width: 90%; 
+  flex-basis: 100%;
+  opacity: 1;
+}
+
+#read-more a {
+  margin: 0;
+  text-decoration: none;
+  padding: 20px 0 0px 50px;
 }
 
 .title-activity h1 {
   margin: 0px 0 20px 33px;
   text-align:left;
 }
+
+.activity-container {
+  margin-left: 48px;
+}
+
 
 .activity-container .activity-marseille {
   width: 85%;
