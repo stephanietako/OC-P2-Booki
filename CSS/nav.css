@@ -53,12 +53,12 @@ nav ul {
 
 .header-nav a:hover {
   border-top: 2px solid red;
-  cursor: pointer;
+
 }
 
 .header-nav a.links:hover {
   border-top: 2px solid blue;
-  cursor: pointer;
+ 
 
 }
 
