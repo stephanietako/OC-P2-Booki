@@ -18,15 +18,14 @@
 <body>
     <div class="bloc-page">
         <header>
-            
                 <div id="logo">
-                        <a href="#"><img src="images/Logo/Booki.png" alt="logo de Booki" /></a>
+                        <a href="#"><img src="images/Logo/Booki@3x.png" alt="logo de Booki" /></a>
                 </div>
                     <nav> 
                         <div class="header-nav">
-                                    <a href="#accomodations-bloc" id="accomodations">Hébergements</a>
-                                    <a href="#activity" id="activity">Activités</a>
-                            </div>
+                            <a href="#accomodations-bloc" id="accomodations">Hébergements</a>
+                            <a href="#activity" id="activity">Activités</a>
+                        </div>
                     </nav>
             </header>
     
@@ -36,9 +35,11 @@
         </div>  
         <!--Form -->
         <form action="#" class="forms">
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="text" class="form-control" id="inputLocation" value=" Marseille, France" />
-            <button type="submit" class="search" id="value" value="rechercher"> Rechercher <span><i class="fa-solid fa-magnifying-glass" id="btn-mobile"></i></span></button>
+                <i class="fa-solid fa-location-dot"></i>
+            <input type="text" class="input" value=" Marseille, France" />
+            <button type="submit" class="research"><span id="search"> Rechercher</span>
+            <span id="glass"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </button>
         </form>
         <!--filters-->
         <div class="filters">
@@ -62,12 +63,12 @@
                 </li>
             </ul>
         </div>
-        <div id="font-info">
-            <a href="#">
-                <i class="fa-solid fa-info"></i>
-                Plus de 500 logements sont disponibles dans cette ville
-            </a>
-        </div>
+                <div class="font-info">
+                    <div id="info">
+                        <a href="#"><i class="fa-solid fa-info"></i></a> 
+                    </div>
+                        <P id="info-text">Plus de 500 logements sont disponibles dans cette ville</P>
+                </div>
         <!--hebergements à marseille-->
         <main class="container">
             <section class="accomodations-marseille" id="accomodations-bloc">
@@ -446,6 +447,5 @@
             </div>
         </footer>
     </div>
-
 </body>
 </html>

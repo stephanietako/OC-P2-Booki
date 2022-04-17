@@ -4,11 +4,7 @@
 
 .forms {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin: 0 0 20px 57px;
-  max-width: 100%;
-  width: 0%;
 }
  
 .forms i.fa-solid.fa-location-dot {
@@ -18,23 +14,21 @@
   padding: 16px;
   font-size: 18px; 
 }
- 
-.forms input {
-  display: flex;
+
+.forms .input {
+  width: 15%;
+  display: inline-block;
   background-color: #FFFFFF;
   font-weight: bold;
   color: #000000;
   border: 1px solid var(--color-clear-gray);
   padding-top: 14px;
+  padding-right: 10px;
   padding-bottom: 14px;
   padding-left: 14px;
-  padding: 16px 24px;
-  box-sizing: border-box;
-  width: 224px;
-  font-size: 17px;
 }
 
-.forms .search {
+.research {
   background-color: var(--color-blue);
   color: #FFFFFF;
   border: none;
@@ -43,10 +37,13 @@
   border-top-right-radius: 15px;
   padding: 16px;
   font-size: 17px;
+  margin-left: -7px;
+  cursor: pointer;
 }
 
-#btn-mobile {
+#glass {
   display: none;
+
 }
 
 .filters {
@@ -107,23 +104,31 @@ i.fa-solid.fa-money-bill-wave {
   border-radius: 30px; 
 }
 
-#font-info {
+.font-info {
   display: flex;
-  margin-left: 57px; 
+  margin-left: 53px; 
   margin-bottom: 33px;
+  align-items: center;
 }
  
-#font-info a {
+.font-info a p {
   font-size: 15px;
   color: #000000;
   text-decoration: none;
 }
 
-#font-info a i {
+#info a i {
   color: var(--color-blue);
-  margin-right: 5px;
+  margin-right: 12px;
   border: solid 1px var(--color-picker-gray);
   padding: 4px 8px 4px 8px;
   border-radius: 20px;
   font-size: small;
+  align-items: center;
+  justify-content: center; 
 } 
+
+#info-text p {
+ align-items: center;
+ justify-content: center;
+}

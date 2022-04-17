@@ -1,43 +1,40 @@
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 32px;
-  text-align: center;
-  transition-duration: 0.1s;
+  padding: 0 36px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #logo {
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
+  padding: 0 22px;
 }
 
 #logo img {
-  width: 100px;
+  width: 105px;
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
 }
 
-nav a {
+.header-nav {
+  display: flex;
+}
+
+.header-nav a {
   padding: 32px;
   border-top: 3px solid transparent;
   text-decoration: none;
+  padding-top: 50px;
 }
 
-nav a:hover{
-  border-top: 3px solid blue;
-  padding-top: 59px;
-}
-
-#logo {
-  padding: 0 36px;
+.header-nav a:hover{
+  border-top: 3px solid var(--color-blue);
+  cursor: pointer;
 }
 
 .header-nav #accomodations {
@@ -47,3 +44,4 @@ nav a:hover{
 .header-nav #activity {
   color: black;
 }
+

@@ -1,6 +1,15 @@
 /* large device (Desktop, 992px or less)*/
 @media screen and (max-width: 992px) {
 
+.bloc-page {
+  width: auto;
+  margin: auto;
+}
+
+.forms .input {
+  width: 28%; 
+}
+
 .filters h3 {
   margin-right: 10px;
 }
@@ -9,28 +18,47 @@
   margin: 0 0 20px 45px;
 }
 
+#font-info a i {
+  margin-right: 10px;
+} 
+
 .container .accomodations-marseille {
-  width: 100%;
+  width: 95%;
+  margin-right: 0;
 }
 
 .container .accomodations-marseille .container-cards .card a .card-body h3 {
   font-size: 17px;
 }
- 
-.title-chart h2 {
-  padding-top: 15px;
+
+.container .accomodations-marseille .container-cards {
+  justify-content: center;
+  padding-left: 0;
 }
 
 #font {
-  margin-right: 3px;
+  margin-right: 5px;
+}
+
+.chart-bloc {
+  justify-content: space-between;
+}
+
+.title-chart h2 {
+  margin: 0;
+  padding-top: 47px;
+  margin-left: 7px;
 }
 
 .container .bloc-popular {
   width: 95%;
   background-color: transparent;
-  padding-left: 10px;
 }
-  
+
+.bloc-popular .container-cards .card {
+  flex-basis: 61%;
+}
+
 .container .bloc-popular .container-cards {
   gap: 20px;
 }
@@ -46,7 +74,11 @@
   margin: 0;
   font-size: 17px;
 }
-  
+
+.bloc-popular .container-cards .card a .card-body {
+  padding: 12px 72px 7px 40px;
+}
+
 .container .most-popular .container-cards .card a .card-body .stars i {
   font-size: 11px;
   padding-top: 3px;
@@ -54,18 +86,15 @@
 }
   
 .activity-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 57px;
-  justify-content: space-between;
-  padding: 0 50px;
   gap: 34px;
+  justify-content: center;
+  margin-left: 0;
 }
 
 .title-activity h2 {
-  margin: 47px 0 20px 35px;
+  margin: 23px 0 20px 55px;
 }
-  
+
 .activity-container .activity-marseille {
   width: 60%;
 }
@@ -76,10 +105,10 @@
   
 .activity-container .activity-marseille .container-cards1 .card a .card-image img {
   width: 100%;
-  height: 215px;
+  height: 200px;
   object-position: 0;
 }
-  
+ 
 .activity-container .activity-marseille .container-cards2 {
   width: 100%;
 
@@ -87,11 +116,11 @@
 
 .activity-container .activity-marseille .container-cards2 .card {
   width: 100%;
-  }
+}
   
 .activity-container .activity-marseille .container-cards2 .card a .card-image img {
   width: 100%;
-  height: 215px;
+  height: 200px;
   object-position: 0;
 }
 
@@ -105,7 +134,7 @@
   
 .activity-container .activity-marseille .container-cards3 .card a .card-image img {
   width: 100%;
-  height: 215px;
+  height: 200px;
   object-position: 0;
 }
   
@@ -115,23 +144,24 @@
 }
   
 .activity-container .activity-marseille .container-cards4 .card a .card-image img {
-  height: 215px;
+  height: 200px;
   width: 100%;
   object-position: 0;
 }
-    
+
+.activity-container .activity-marseille .container-cards5 .card {
+  width: 592px;
+}
+
 .activity-container .activity-marseille .container-cards5 .card a .card-image img {
-  height: 215px;
-  object-position: 0;
+  height: 200px;
+}
+
+.activity-container .activity-marseille .container-cards6 .card {
+  width: 100%;
+  max-width: 667px;
+  margin-bottom: 50px;
 }
   
-.activity-container .activity-marseille .container-cards6 .card a .card-image img { 
-  height: 215px;
-  object-position: 0;
-}
-  
-.activity-container .activity-marseille .container-cards6 .card a .card-body {
-  margin-bottom: 12px;
-}
 
 }
